@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Marki's Cafe",
+    "slug": "markis-cafe",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": ".app/assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": ".app/assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "ios": {
+      "infoPlist": {
+        "NSAppTransportSecurity": {
+          "NSAllowsArbitraryLoads": true
+        }
+      },
+      "bundleIdentifier": "com.emurphy04.markiscafe"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-build-properties"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "36853590-9c9a-453a-b57b-575f32d932f1"
+      }
+    }
+  }
+}
